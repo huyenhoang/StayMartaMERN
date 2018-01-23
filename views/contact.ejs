@@ -1,0 +1,59 @@
+<% include partials/header %>
+
+    <div class="jumbotron">
+      <nav class="navbar navbar-transparent navbar-static-top">
+        <div class="top-header">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">StayMarta</a><img id="logo" src='img/logo.png'/>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">Home</a></li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/host">Become a host</a></li>
+                <li><a href="/login">Log in</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+      <div class="container_tc">
+        <h1><strong>Contact Us</strong></h1>
+        <h3>We are here to help!</h3>
+      </div>
+    </div>
+
+    <div class="contact_info">
+      <h5>Contact Us Today</h5>
+      <p>StayMarta is happy to provide you with more information and answer any questions you may have.</p>      
+      <div class="contact_container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="example@domain.com">
+
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="addressphone">
+        <h5>General Contact</h5>
+        <h5>Phone: 123-345-5678</h5>
+        <h5>Email: whatever@staymarta.com</h5>
+      </div>
+    </div>
+
+<% include partials/footer %>

@@ -1,0 +1,62 @@
+<!-- Nav start -->
+          <nav class="navbar navbar-transparent navbar-static-top">
+          <!-- Header Start-->
+          <div class="top-header">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/">StayMarta</a><img id="logo" src='img/logo.png'/>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                      <!-- <li class="active"><a href="#">Home</a></li> -->
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="/host">Become a host</a></li>
+                      <li><a href="/login" data-toggle="modal" data-target="#LoginModal">Log in</a></li>
+                  </ul>
+                  <!-- Login Modal -->
+                  <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                              <div class="login-modal-header">
+                                  <h2 class="login-modal-title" id="exampleModalLabel">Log in <img src=""></h2>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                  </button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="login-opts">
+                                      <!-- Facebook Login -->
+                                      <div class="fb-login">
+                                          <button id="fb-login-btn">
+                                              <i class="fa fa-facebook" aria-hidden="true"></i><p id="fb-login-text"> Login with Facebook</p>
+                                          </button>
+                                      </div>
+                                      <!-- Google Login -->
+                                      <div class="g-login">
+                                          <button id="g-login-btn"> <span><img id="g-icon" src="img/google-g.png"></span><p id="g-login-text"> Login with Google </p>
+                                          </button>
+                                      </div>
+                                  </div>
+                                  <p id="option-text">or</p>
+                                  <!-- Manual Login -->
+                                  <div class="login-manual">
+                                      <input id="login-email" placeholder="Email"><br>
+                                      <input id="login-pw" placeholder="Password"><br>
+                                      <input id="login-remember-me" type="checkbox">  <p id="login-remember-me">Remember me</p>
+                                      <p id="login-pw-forgot">Forgot password?</p>
+                                  </div>
+                                  <button id="login-btn">Log in</button>
+                                  <!-- Sign-up -->
+                                  <p id="sign-up-text">Don't have an account? <span><button id="sign-up-btn">Sign up</button></span></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div> <!-- End Log-in modal -->
+              </div> <!--/.nav-collapse -->
+          </div> <!-- Header End-->
+          </nav> <!-- Nav End -->
