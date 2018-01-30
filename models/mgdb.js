@@ -57,7 +57,7 @@ module.exports = mongoose.model('Adventure', adventureSchema);
 var reviewSchema = new Schema({
   target:{ 
         type: String, 
-        enum: ['listing', 'host', 'guest'] }
+        enum: ['listing', 'host', 'guest'] },
   rating:{
         type: Number,
         min: [1, 'The range for rating is 1-5.'],
