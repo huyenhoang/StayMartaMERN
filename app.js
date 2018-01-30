@@ -112,8 +112,9 @@ app.get("/hello", function(req, res){
 });
 
 app.get("/listings", function(req, res){
-        res.render("listings", {listings: listings });
+    res.render("listings", {listings: listings });
 });
+
 
 // how it work route
 app.get("/howitwork", function(req, res){
